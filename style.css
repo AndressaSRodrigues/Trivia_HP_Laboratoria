@@ -1,0 +1,74 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+
+body {
+  background-color: #090057;
+  color: #fff;
+  
+  text-align: center;
+}
+
+header {
+  background-color: #57007E;
+  font-family: 'Montez', cursive;
+  font-size: 2rem;
+  margin: 20px 200px 20px 200px;
+  padding: 5%;
+}
+
+main {
+  background-color: #57007E;
+  font-family: 'Montserrat', sans-serif;
+  margin: 20px 200px 20px 200px;
+  padding: 3%;
+}
+
+#btn-start {
+  display: none;
+}
+
+#questions {
+  display: none;
+  text-align: justify;
+  padding: 20px
+}
+
+.input-quiz {
+  appearance: none;
+  border-radius: 50%;
+  width: 16px;
+  height: 16px;
+  border: 2px solid #FFA069;
+  transition: 0.2s all linear;
+  margin-right: 5px;
+  position: relative;
+  top: 4px;
+}
+
+input:checked {
+  border: 6px solid #C400C6;
+}
+
+button {
+  width: 120px;
+  height: 40px;
+  display: block;
+  margin: auto;
+  color: white;
+  background-color: #C400C6;
+  padding: 5px 10px;
+  border-radius: 5px;
+  border: 0;
+  font-size: 14px;
+}
+
+button:hover {
+  background-color: #FFA069;
+  color: #fff;
+}
+
+#btn-clear {
+  display: none;
+}

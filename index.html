@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Harry Potter Trivia</title>
+  <link href="style.css" rel="stylesheet" type="text/css"/>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montez&family=Montserrat:wght@300&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <h1>Harry Potter Trivia</h1>
+        <img src="https://cloudfront-us-east-1.images.arcpublishing.com/infobae/6KUHYVHJDRCLPHZLPK42EVD6HY.jpg"
+          width="400px"><br><br>
+    
+        <div id="personal-info">
+          <form id="btn-name">
+            <label for="name">¿Cuál es tu nombre?</label><br>
+            <input type="text" id="user-name" name="name">
+            <button type="submit">OK</button><br>
+          </form>
+        </div>
+
+        <div id="start-quiz">
+          <h2> </h2>
+          <button type="button" id="btn-start">Empezar!</button>
+        </div>
+      </header>
+    
+      <main>
+        <div id="questions">
+          <form class="quiz-form">
+            <h3>¿Cuál de esas opciones no es una casa de Hogwarts?</h3>
+            <input class="input-quiz" type="radio" id="question1a" name="question1" value="a1">
+            <label for="question1a">Slytherin</label><br>
+            <input class="input-quiz" type="radio" id="question1b" name="question1" value="b1">
+            <label for="question1b">Hufflepuff</label><br>
+            <input class="input-quiz" type="radio" id="question1c" name="question1" value="c1">
+            <label for="question1c">Quidditch</label><br>
+    
+            <h3>¿Cuál es el nombre del pub en la entrada del Callejón Diagon?</h3>
+            <input class="input-quiz" type="radio" id="question2a" name="question2" value="a2">
+            <label for="question2a">El Caldero Chorreante</label><br>
+            <input class="input-quiz" type="radio" id="question2b" name="question2" value="b2">
+            <label for="question2b">Cabeza de Puerco</label><br>
+            <input class="input-quiz" type="radio" id="question2c" name="question2" value="c2">
+            <label for="question2c">Las Tres Escobas</label><br>
+
+            <h3>¿Cuál es el nombre del cuadro en la entrada de Gryffindor?</h3>
+            <input class="input-quiz" type="radio" id="question3a" name="question3" value="a3">
+            <label for="question3a">La Dama Violeta</label><br>
+            <input class="input-quiz" type="radio" id="question3b" name="question3" value="b3">
+            <label for="question3b">La Dama Gorda</label><br>
+            <input class="input-quiz" type="radio" id="question3c" name="question3" value="c3">
+            <label for="question3c">El Caballero Sir Cadogan</label><br>
+
+          </form><br><br>
+          
+          <h3 id="resultado"></h3>
+          
+          <button type="button" id="btn-resultado">Enviar</button><br>
+          <button type="button" id="btn-clear">Intentar otra vez</button>
+        
+        </div>
+    
+      </main>
+  
+<script src="script.js"></script>
+</body>
+
+</html>
